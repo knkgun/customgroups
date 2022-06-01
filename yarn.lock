@@ -1540,6 +1540,10 @@ istanbul@^0.4.0:
     which "^1.1.1"
     wordwrap "^1.0.0"
 
+jasmine-core@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-4.1.1.tgz#1045091e16f4f19e1d72416eef5db01e64d5fbeb"
+
 jasmine-core@~3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.7.1.tgz#0401327f6249eac993d47bbfa18d4e8efacfb561"
@@ -1662,9 +1666,11 @@ karma-jasmine-sinon@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/karma-jasmine-sinon/-/karma-jasmine-sinon-1.0.4.tgz#fe8996604137946900a706c06229679500734c40"
 
-karma-jasmine@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/karma-jasmine/-/karma-jasmine-1.1.1.tgz#6fe840e75a11600c9d91e84b33c458e1c46a3529"
+karma-jasmine@~5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/karma-jasmine/-/karma-jasmine-5.0.1.tgz#854e9204b62cfa07242a8c66b8ab83751a896d02"
+  dependencies:
+    jasmine-core "^4.1.0"
 
 karma-junit-reporter@*:
   version "2.0.1"
